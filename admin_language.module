@@ -18,7 +18,6 @@ function admin_language_help($path, $arg) {
   switch ($path) {
     case 'admin/config/regional/language':
       return '<p>' . t('Use the <em>admin</em> column to select the default language for all administration pages. The language you select must be enabled. You can configure the !settings-url to control where the administration language is used.', array('!settings-url' => l(t('administration language settings'), 'admin/config/regional/language/admin_language'))) . '</p>';
-      break;
   }
 }
 
