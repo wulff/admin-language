@@ -1,0 +1,6 @@
+name = Administration language
+description = Makes sure all administration pages are displayed in the preferred language of the administrator.
+dependencies[] = locale
+package = Multilanguage
+core = 7.x
+configure = admin/config/regional/language/admin_language
